@@ -1,2 +1,6 @@
 *.py
 *.py.un~
+*.un~
+.gitignore
+..gitignore.un~
+.git_trending_to_my_repo.py.un~
