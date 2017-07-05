@@ -16,6 +16,8 @@ def git_add_commit_push(date, filename):
     os.system(cmd_git_add)
     os.system(cmd_git_commit)
     os.system(cmd_git_push)
+    os.system("SongMingtao")
+    os.system("github@123456")
 
 
 def createMarkdown(date, filename):
