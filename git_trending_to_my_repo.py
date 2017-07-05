@@ -11,14 +11,11 @@ from pyquery import PyQuery as pq
 def git_add_commit_push(date, filename):
     cmd_git_add = 'git add .'
     cmd_git_commit = 'git commit -m "{date}"'.format(date=date)
-    cmd_git_push = 'git push -u origin master'
+    cmd_git_push = 'git push -u myown master'
 
     os.system(cmd_git_add)
     os.system(cmd_git_commit)
     os.system(cmd_git_push)
-    os.system("SongMingtao")
-    os.system("github@123456")
-
 
 def createMarkdown(date, filename):
     with open(filename, 'w') as f:
