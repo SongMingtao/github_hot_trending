@@ -72,7 +72,6 @@ def job():
 #main func
 
 if __name__ == "__main__":
-    while True:
-        job()
-        time.sleep(12 * 60 * 60)
+    job()
+    time.sleep(12 * 60 * 60)
 
