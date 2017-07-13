@@ -73,5 +73,5 @@ def job():
 
 if __name__ == "__main__":
     job()
-    time.sleep(12 * 60 * 60)
+    print("Update repo successfully!! Enjoy!!!")
 
